@@ -1,3 +1,4 @@
+import {} from '../../App.css'
 export const Slider = () => {
   return (
     <>
@@ -7,7 +8,6 @@ export const Slider = () => {
         </div>
         <div className="slider_number-container d-none d-md-block">
           <div className="number-box">
-            <span>01</span>
             <hr />
             <span className="jwel">
               J <br />
@@ -20,7 +20,6 @@ export const Slider = () => {
               r <br />y
             </span>
             <hr />
-            <span>02</span>
           </div>
         </div>
         <div className="container">
@@ -29,35 +28,18 @@ export const Slider = () => {
             className="carousel slide"
             data-ride="carousel"
           >
-            <ol className="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                className="active"
-              >
-                01
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                02
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                03
-              </li>
-            </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="row">
                   <div className="col-md-6">
-                    <div className="detail_box">
+                    <div className="detail_box banner-slider">
                       <h2>
-                        <span> New Collection</span>
+                        <span> Nueva Coleccion</span>
                         <hr />
                       </h2>
-                      <h1>Jewellery</h1>
+                      <h1>Silver Rings</h1>
                       <p>
-                        Lorem ipsum dolor sit amet consec tetur adipiscing elit
-                        elit at felislacinia aptent taciti sociosqu ad litora
-                        torquent per conubia nostra
+                        Anillo de plata de 20 gramos de peso
                       </p>
                       <div>
                         <a href="">Shop Now</a>
@@ -74,16 +56,14 @@ export const Slider = () => {
               <div className="carousel-item ">
                 <div className="row">
                   <div className="col-md-6">
-                    <div className="detail_box">
+                    <div className="detail_box banner-slider">
                       <h2>
-                        <span> New Collection</span>
+                        <span> Nueva Coleccion </span>
                         <hr />
                       </h2>
-                      <h1>Jewellery</h1>
+                      <h1>Silver Rings</h1>
                       <p>
-                        Lorem ipsum dolor sit amet consec tetur adipiscing elit
-                        elit at felislacinia aptent taciti sociosqu ad litora
-                        torquent per conubia nostra
+                        
                       </p>
                       <div>
                         <a href="">Shop Now</a>
@@ -92,7 +72,7 @@ export const Slider = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="img-box">
-                      <img src="src/assets/images/slider-img.png" alt="" />
+                      <img src="src/assets/images/rings.jpeg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -100,16 +80,13 @@ export const Slider = () => {
               <div className="carousel-item ">
                 <div className="row">
                   <div className="col-md-6">
-                    <div className="detail_box">
+                    <div className="detail_box banner-slider">
                       <h2>
-                        <span> New Collection</span>
+                        <span> Nueva Coleccion</span>
                         <hr />
                       </h2>
-                      <h1>Jewellery</h1>
+                      <h1>Silver Rings</h1>
                       <p>
-                        Lorem ipsum dolor sit amet consec tetur adipiscing elit
-                        elit at felislacinia aptent taciti sociosqu ad litora
-                        torquent per conubia nostra
                       </p>
                       <div>
                         <a href="">Shop Now</a>
@@ -118,7 +95,7 @@ export const Slider = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="img-box">
-                      <img src="src/assets/images/slider-img.png" alt="" />
+                      <img src="src/assets/images/heart.jpeg" alt="" />
                     </div>
                   </div>
                 </div>

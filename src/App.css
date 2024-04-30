@@ -1,0 +1,5 @@
+.detail_box.banner-slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
