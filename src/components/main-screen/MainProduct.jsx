@@ -11,7 +11,7 @@ export const MainProduct = () => {
               <div className="detail-box">
                 <h4>special</h4>
                 <h2>Wedding Ring</h2>
-                <a href="">Buy Now</a>
+                {/* <a href="">Buy Now</a> */}
               </div>
             </div>
             <div className="col-md-7">

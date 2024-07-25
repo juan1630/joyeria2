@@ -5,10 +5,10 @@ export const Header = () => {
     <header className="header_section">
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container ">
-          <a className="navbar-brand" href="index.html">
+          {/* <a className="navbar-brand" href="index.html">
             <img src={"src/assets/images/logo.png"} alt="" />
-          </a>
-          <button
+          </a> */}
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -18,28 +18,28 @@ export const Header = () => {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </button> */}
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse mt-3 mb-3 navbar-collapse" id="navbarSupportedContent">
             <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul className="navbar-nav  ">
                 <li className="nav-item active">
-                  <Link  className="nav-link" href="index.html">
-                    Home <span className="sr-only">(current)</span>
+                  <Link to='/home'  className="nav-link" href="index.html">
+                    Inicio <span className="sr-only">(current)</span>
                   </Link>
                 </li>
-                {/* <li className="nav-item">
-                  <a className="nav-link" href="about.html">About</a>
-                </li> */}
+                <li className="nav-item">
+                  <a className="nav-link" target="_blank" href="catalogo.pdf">Catálogo </a>
+                </li>
                 {/* <li className="nav-item">
                   <a className="nav-link" href="jewellery.html">
                     Jewellery
                   </a>
                 </li> */}
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">
+                  <Link to='/contacto' className="nav-link" href="contact.html">
                     Contactanos
-                  </a>
+                  </Link>
                 </li>
                 {/* <li className="nav-item">
                   <a className="nav-link" href="#">
@@ -53,12 +53,12 @@ export const Header = () => {
                 <img src="images/cart.png" alt="" />
                 <div className="cart_number">0</div>
               </a>
-              <form className="form-inline">
+              {/* <form className="form-inline">
                 <button
                   className="btn  my-2 my-sm-0 nav_search-btn"
                   type="submit"
                 ></button>
-              </form>
+              </form> */}
             </div>
           </div>
         </nav>

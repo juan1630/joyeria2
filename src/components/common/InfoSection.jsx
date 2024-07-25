@@ -37,7 +37,7 @@ export const InfoSection = () => {
               </div>
             </div>
           </div>
-          <div className="info_form">
+          {/* <div className="info_form">
             <div className="d-flex justify-content-center">
               <h5 className="info_heading">Newsletter</h5>
             </div>
@@ -50,23 +50,23 @@ export const InfoSection = () => {
                 <button>subscribe</button>
               </div>
             </form>
-          </div>
+          </div> */}
           <div className="info_social">
             <div className="d-flex justify-content-center">
-              <h5 className="info_heading">Follow Us</h5>
+              <h5 className="info_heading">Siguenos</h5>
             </div>
             <div className="social_box">
               <a href="">
-                <img src="src/assets/images/fb.png" alt="" />
+                {/* <img src="src/assets/images/fb.png" alt="" /> */}
               </a>
               <a href="">
-                <img src="src/assets/images/twitter.png" alt="" />
+                {/* <img src="src/assets/images/twitter.png" alt="" /> */}
               </a>
               <a href="">
-                <img src="src/assets/images/linkedin.png" alt="" />
+                {/* <img src="src/assets/images/linkedin.png" alt="" /> */}
               </a>
-              <a href="">
-                <img src="src/assets/images/insta.png" alt="" />
+              <a target="_blank" href="https://www.instagram.com/joyeria.inara?igsh=M2Znd2poM2tnd3F4">
+                <img src="src/assets/images/insta.png" alt="instagram icon" />
               </a>
             </div>
           </div>

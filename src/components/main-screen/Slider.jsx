@@ -42,7 +42,7 @@ export const Slider = () => {
                         Anillo de plata de 20 gramos de peso
                       </p>
                       <div>
-                        <a href="">Shop Now</a>
+                        {/* <a href="">Shop Now</a> */}
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export const Slider = () => {
                         
                       </p>
                       <div>
-                        <a href="">Shop Now</a>
+                        {/* <a href="">Shop Now</a> */}
                       </div>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export const Slider = () => {
                       <p>
                       </p>
                       <div>
-                        <a href="">Shop Now</a>
+                        {/* <a href="">Shop Now</a> */}
                       </div>
                     </div>
                   </div>

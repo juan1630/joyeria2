@@ -8,7 +8,7 @@ export const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div className="detail-box">
+              {/* <div className="detail-box">
                 <div className="heading_container">
                   <h2>About Jewellery Shop</h2>
                 </div>
@@ -23,11 +23,11 @@ export const About = () => {
                 <div>
                   <a href="">Read More</a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col-md-6">
               <div className="img-box">
-                <img src="src/assets/images/about-img.png" alt="" />
+                <img src="src/assets/images/about-img.png" alt="golden ring image" />
               </div>
             </div>
           </div>
