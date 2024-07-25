@@ -19,7 +19,7 @@ function App() {
       <About />
       <Price />
       <MainProduct />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <InfoSection />
       <Footer />
     </>

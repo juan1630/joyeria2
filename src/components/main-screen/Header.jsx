@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <header className="header_section">
@@ -22,28 +24,28 @@ export const Header = () => {
             <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul className="navbar-nav  ">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html">
+                  <Link  className="nav-link" href="index.html">
                     Home <span className="sr-only">(current)</span>
-                  </a>
+                  </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="about.html">About</a>
-                </li>
-                <li className="nav-item">
+                </li> */}
+                {/* <li className="nav-item">
                   <a className="nav-link" href="jewellery.html">
-                    Jewellery{" "}
+                    Jewellery
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="contact.html">
-                    Contact us
+                    Contactanos
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#">
                     Login
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="quote_btn-container ">
