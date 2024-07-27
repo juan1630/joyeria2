@@ -20,7 +20,7 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button> */}
 
-          <div className="collapse mt-3 mb-3 navbar-collapse" id="navbarSupportedContent">
+          <div className="mt-3 mb-3 navbar-collapse" id="navbarSupportedContent">
             <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul className="navbar-nav  ">
                 <li className="nav-item active">
