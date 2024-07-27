@@ -12,19 +12,19 @@ export const InfoSection = () => {
                 </a>
               </div>
             </div>
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <div className="info_contact">
                 <a href="">
                   <img src="src/assets/images/location.png" alt="" />
                   <span>Address</span>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="col-md-3">
               <div className="info_contact">
                 <a href="">
                   <img src="src/assets/images/phone.png" alt="" />
-                  <span>+01 1234567890</span>
+                  <span>+52 7355020044</span>
                 </a>
               </div>
             </div>
@@ -32,7 +32,10 @@ export const InfoSection = () => {
               <div className="info_contact">
                 <a href="">
                   <img src="images/mail.png" alt="" />
-                  <span>demo@gmail.com</span>
+                  <span>
+                    <a href="mailto:joyeria.inara@gmail.com?Subject=hello" target="_top"></a>
+                    joyeria.inara@gmail.com
+                    </span>
                 </a>
               </div>
             </div>
