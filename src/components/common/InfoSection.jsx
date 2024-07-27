@@ -7,7 +7,7 @@ export const InfoSection = () => {
             <div className="col-md-3">
               <div className="info_logo">
                 <a href="">
-                  <img src="src/assets/images/logo.png" alt="" />
+                  <img src="./logo.png" alt="" />
                   <span>Inara</span>
                 </a>
               </div>
@@ -59,17 +59,17 @@ export const InfoSection = () => {
               <h5 className="info_heading">Siguenos</h5>
             </div>
             <div className="social_box">
-              <a href="">
-                {/* <img src="src/assets/images/fb.png" alt="" /> */}
+              {/* <a href="">
+                <img src="src/assets/images/fb.png" alt="" />
               </a>
               <a href="">
-                {/* <img src="src/assets/images/twitter.png" alt="" /> */}
+                <img src="src/assets/images/twitter.png" alt="" />
               </a>
               <a href="">
-                {/* <img src="src/assets/images/linkedin.png" alt="" /> */}
-              </a>
+                <img src="src/assets/images/linkedin.png" alt="" />
+              </a> */}
               <a target="_blank" href="https://www.instagram.com/joyeria.inara?igsh=M2Znd2poM2tnd3F4">
-                <img src="src/assets/images/insta.png" alt="instagram icon" />
+                <img src="./insta.png" alt="instagram icon" />
               </a>
             </div>
           </div>
