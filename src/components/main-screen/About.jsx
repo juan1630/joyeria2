@@ -25,11 +25,11 @@ export const About = () => {
                 </div>
               </div> */}
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <div className="img-box">
                 <img src="src/assets/images/about-img.png" alt="golden ring image" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

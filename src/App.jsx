@@ -16,9 +16,9 @@ function App() {
       <Header />
       <Slider />
       <Products />
-      <About />
+      {/* <About /> */}
       {/* <Price /> */}
-      <MainProduct />
+      {/* <MainProduct /> */}
       {/* <ContactSection /> */}
       <InfoSection />
       <Footer />
