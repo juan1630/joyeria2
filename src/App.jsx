@@ -17,7 +17,7 @@ function App() {
       <Slider />
       <Products />
       <About />
-      <Price />
+      {/* <Price /> */}
       <MainProduct />
       {/* <ContactSection /> */}
       <InfoSection />

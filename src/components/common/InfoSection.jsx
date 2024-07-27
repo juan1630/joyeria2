@@ -8,7 +8,7 @@ export const InfoSection = () => {
               <div className="info_logo">
                 <a href="">
                   <img src="src/assets/images/logo.png" alt="" />
-                  <span>Lodge</span>
+                  <span>Inara</span>
                 </a>
               </div>
             </div>
